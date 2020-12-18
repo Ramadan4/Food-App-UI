@@ -1,0 +1,101 @@
+const Images = [
+  {image: require('../assets/banners/food-banner1.jpg')},
+  {image: require('../assets/banners/food-banner2.jpg')},
+  {image: require('../assets/banners/food-banner3.jpg')},
+  {image: require('../assets/banners/food-banner4.jpg')},
+  {image: require('../assets/banners/food-banner5.jpg')},
+];
+
+export const data = [
+  {
+    id: '1',
+    coordinate: {
+      latitude: 29.3084,
+      longitude: 30.8428,
+    },
+    title: 'Fayoum Restaurant',
+    description: ` Faiyum is a city in Middle Egypt. Located 100 kilometres southwest of Cairo, in the Faiyum Oasis, it is the capital of the modern Faiyum Governorate.`,
+    image: Images[0].image,
+    rating: 4,
+    reviews: 99,
+    categories: ['Restaurant', 'Hotel', 'Dineout'],
+  },
+  {
+    id: '2',
+    coordinate: {
+      latitude: 30.0444,
+      longitude: 31.2357,
+    },
+    title: 'Cairo Restaurant',
+    description: ` Cairo, Egypt’s sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities includi `,
+    image: Images[1].image,
+    rating: 5,
+    reviews: 102,
+    categories: ['Restaurant', 'Fastfood Center', 'Snacks Corner'],
+  },
+  {
+    id: '3',
+    coordinate: {
+      latitude: 31.2001,
+      longitude: 29.9187,
+    },
+    title: 'Alexandria Restaurant',
+    description: `Alexandria is a Mediterranean port city in Egypt. During the Hellenistic period, it was home to a lighthouse ranking among the Seven Wonders of the Ancient World as well as a storied library.`,
+    image: Images[2].image,
+    rating: 3,
+    reviews: 220,
+    categories: ['Restaurant', 'Hotel', 'Dineout'],
+  },
+  {
+    id: '4',
+    coordinate: {
+      latitude: 24.0889,
+      longitude: 32.8998,
+    },
+    title: 'Aswan Restaurant',
+    description: ` Aswan, a city on the Nile River, has been southern Egypt’s strategic and commercial gateway since antiquity.`,
+    image: Images[3].image,
+    rating: 4,
+    reviews: 48,
+    categories: ['Restaurant', 'Fastfood Center', 'Snacks Corner'],
+  },
+  {
+    id: '5',
+    coordinate: {
+      latitude: 25.6872,
+      longitude: 32.6396,
+    },
+    title: 'Luxor Restaurant',
+    description: `Luxor is a city on the east bank of the Nile River in southern Egypt. It's on the site of ancient Thebes,`,
+    image: Images[4].image,
+    rating: 4,
+    reviews: 178,
+    categories: ['Restaurant', 'Hotel', 'Dineout'],
+  },
+  {
+    id: '6',
+    coordinate: {
+      latitude: 27.2579,
+      longitude: 33.8116,
+    },
+    title: 'Hurghada Restaurant',
+    description: `Hurghada is a beach resort town stretching some 40km along Egypt’s Red Sea coast`,
+    image: Images[0].image,
+    rating: 4,
+    reviews: 99,
+    categories: ['Restaurant', 'Hotel', 'Dineout'],
+  },
+  {
+    id: '7',
+    coordinate: {
+      latitude: 27.9654,
+      longitude: 34.3618,
+    },
+    title: 'Sharm el-Sheikh ',
+    description: `Sharm el-Sheikh is an Egyptian resort town between the desert of the Sinai Peninsula and the Red Sea .`,
+    image: Images[1].image,
+    rating: 5,
+    reviews: 102,
+    categories: ['Restaurant', 'Fastfood Center', 'Snacks Corner'],
+  },
+];
